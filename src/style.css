@@ -17,6 +17,8 @@
     border-bottom: 1px dashed rgba(0, 0, 0, .09);
     padding-bottom: 1rem;
     margin-bottom: 1rem;
+    font-size: 1.5rem;
+    margin-top: 0;
 }
 
 .bahasaweb-toc ul {
@@ -25,4 +27,49 @@
     margin-bottom: 0 !important;
     list-style-position: inside;
     list-style-type: decimal;
+}
+
+.bahasaweb-toc ul li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+.bahasaweb-toc ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.bahasaweb-toc ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .bahasaweb-toc {
+        margin-left: -1rem;
+        margin-right: -1rem;
+        padding: 1.5rem 1.5rem;
+    }
+    
+    .bahasaweb-toc h2 {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .bahasaweb-toc {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 1rem 1rem;
+        border-left: none;
+        border-right: none;
+    }
+    
+    .bahasaweb-toc h2 {
+        font-size: 1.125rem;
+    }
+    
+    .bahasaweb-toc ul li {
+        font-size: 0.9rem;
+    }
 }
