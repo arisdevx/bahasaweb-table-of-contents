@@ -11,7 +11,8 @@
     "format": "wp-scripts format",
     "lint:css": "wp-scripts lint-style",
     "lint:js": "wp-scripts lint-js",
-    "packages-update": "wp-scripts packages-update"
+    "packages-update": "wp-scripts packages-update",
+    "package": "npm run build && zip -r bahasaweb-table-of-contents.zip . -x 'node_modules/*' -x '.git/*' -x '.*' -x '*.log' -x 'package-lock.json'"
   },
   "devDependencies": {
     "@wordpress/scripts": "^26.0.0"
