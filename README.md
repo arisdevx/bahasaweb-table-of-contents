@@ -18,7 +18,15 @@ This plugin adds a Gutenberg block that automatically generates a Table of Conte
 
 ## Installation
 
-1. Upload the `bahasaweb-table-of-contents` folder to the `/wp-content/plugins/` directory
+### For End Users (Production)
+
+1. Download the latest release from the [Releases page](https://github.com/arisdevx/bahasaweb-table-of-contents/releases)
+2. Upload the plugin folder to the `/wp-content/plugins/` directory
+3. Activate the plugin through the 'Plugins' menu in WordPress
+
+### For Developers (From Source)
+
+1. Clone or download this repository to the `/wp-content/plugins/` directory
 2. Navigate to the plugin directory:
    ```bash
    cd wp-content/plugins/bahasaweb-table-of-contents
