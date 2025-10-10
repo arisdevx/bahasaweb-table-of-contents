@@ -1,7 +1,7 @@
 === Bahasaweb Table of Contents ===
 Contributors: arisdev
 Donate link: https://bahasaweb.com/
-Tags: table of contents, toc, gutenberg block, seo, navigation, anchor links
+Tags: table of contents, toc, gutenberg, seo, navigation
 Requires at least: 5.8
 Tested up to: 6.8
 Stable tag: 1.0.0
