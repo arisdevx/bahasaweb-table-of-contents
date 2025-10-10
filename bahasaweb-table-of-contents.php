@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Bahasaweb Table of Contents
- * Plugin URI: https://bahasaweb.com
+ * Plugin URI: https://github.com/arisdevx/bahasaweb-table-of-contents
  * Description: Automatically generate a table of contents from H2 headings in your posts. Simple Gutenberg block that creates SEO-friendly navigation with anchor links.
  * Version: 1.0.0
  * Author: Aris Munandar
