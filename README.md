@@ -45,7 +45,7 @@ This plugin adds a Gutenberg block that automatically generates a Table of Conte
 ## Generated HTML Format
 
 ```html
-<div class="wp-block-yoast-seo-table-of-contents yoast-table-of-contents">
+<div class="bahasaweb-toc">
     <h2>Table of Contents</h2>
     <ul>
         <li><a href="#heading-id" data-level="2">Heading Text</a></li>
