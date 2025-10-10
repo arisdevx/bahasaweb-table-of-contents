@@ -1,0 +1,57 @@
+/**
+ * Editor styles for Table of Contents block
+ */
+
+.wp-block-bahasaweb-table-of-contents {
+    max-width: 100%;
+}
+
+.wp-block-bahasaweb-table-of-contents .bahasaweb-toc {
+    margin-bottom: 1.5rem !important;
+    margin-top: 1.5rem !important;
+    padding: 2rem 3rem;
+    background-color: rgb(248 250 252);
+    border-top: 1px solid rgba(0, 0, 0, .09);
+    border-bottom: 1px solid rgba(0, 0, 0, .09);
+}
+
+.wp-block-bahasaweb-table-of-contents .bahasaweb-toc h2 {
+    border-bottom: 1px dashed rgba(0, 0, 0, .09);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #333;
+}
+
+.wp-block-bahasaweb-table-of-contents .bahasaweb-toc ul {
+    padding: 0 !important;
+    margin-left: 0 !important;
+    margin-bottom: 0 !important;
+    list-style-position: inside;
+    list-style-type: decimal;
+}
+
+.wp-block-bahasaweb-table-of-contents .bahasaweb-toc ul li {
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.wp-block-bahasaweb-table-of-contents .bahasaweb-toc ul li:last-child {
+    margin-bottom: 0;
+}
+
+.wp-block-bahasaweb-table-of-contents .bahasaweb-toc ul li a {
+    color: #0073aa;
+    text-decoration: none;
+    cursor: default;
+    pointer-events: none;
+}
+
+.wp-block-bahasaweb-table-of-contents p[style*="italic"] {
+    padding: 10px;
+    background: #fff3cd;
+    border-left: 4px solid #ffc107;
+    margin: 10px 0;
+}
