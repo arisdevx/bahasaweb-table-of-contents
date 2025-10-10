@@ -9,7 +9,7 @@ Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Automatically generate a table of contents from H2 headings in your posts. Simple Gutenberg block that creates SEO-friendly navigation with anchor links.
+Automatically generate a table of contents from H2 headings. Simple Gutenberg block with SEO-friendly navigation.
 
 == Description ==
 
