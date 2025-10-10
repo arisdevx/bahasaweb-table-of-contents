@@ -1,4 +1,10 @@
 /**
+ * Styles
+ */
+import './style.css';
+import './editor.css';
+
+/**
  * WordPress dependencies
  */
 const { registerBlockType } = wp.blocks;

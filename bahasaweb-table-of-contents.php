@@ -39,7 +39,7 @@ function bwtoc_register_block() {
     // Register editor style
     wp_register_style(
         'bwtoc-block-editor-style',
-        BWTOC_PLUGIN_URL . 'build/editor.css',
+        BWTOC_PLUGIN_URL . 'build/index.css',
         array('wp-edit-blocks'),
         BWTOC_VERSION
     );
@@ -47,7 +47,7 @@ function bwtoc_register_block() {
     // Register frontend style
     wp_register_style(
         'bwtoc-block-style',
-        BWTOC_PLUGIN_URL . 'build/style.css',
+        BWTOC_PLUGIN_URL . 'build/style-index.css',
         array(),
         BWTOC_VERSION
     );
