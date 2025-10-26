@@ -1,5 +1,5 @@
 === Bahasaweb Table of Contents ===
-Contributors: arisdev
+Contributors: bahasaweb
 Donate link: https://bahasaweb.com/
 Tags: table of contents, toc, gutenberg, seo, navigation
 Requires at least: 5.8

@@ -161,6 +161,12 @@ function bwtoc_extract_headings($blocks, &$headings = array()) {
  * Add IDs to H2 headings in content
  */
 function bwtoc_add_ids_to_headings($content) {
+    // Don't run on scheduled posts or during cron
+    global $post;
+    if (!$post || $post->post_status !== 'publish' || (defined('DOING_CRON') && DOING_CRON)) {
+        return $content;
+    }
+    
     // Match all H2 tags
     $content = preg_replace_callback(
         '/<h2(?![^>]*id=)([^>]*)>(.*?)<\/h2>/is',
